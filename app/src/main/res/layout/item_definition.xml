@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/word_layout_background"
+    android:orientation="vertical"
+    android:padding="22dp">
+
+    <TextView
+        android:id="@+id/textViewPartOfSpeech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="noun"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewDefinition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="used as a greeting or to begin a phone conversation used as a greeting or to begin a phone conversation"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewExample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

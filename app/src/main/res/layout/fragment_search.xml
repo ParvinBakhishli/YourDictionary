@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="10dp"
+    tools:context=".presentation.search.SearchFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/isabelline"
+        app:boxCornerRadiusBottomEnd="22dp"
+        app:boxCornerRadiusBottomStart="22dp"
+        app:boxCornerRadiusTopEnd="22dp"
+        app:boxCornerRadiusTopStart="22dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:startIconDrawable="@drawable/ic_search">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionSearch"
+            android:lines="1"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
